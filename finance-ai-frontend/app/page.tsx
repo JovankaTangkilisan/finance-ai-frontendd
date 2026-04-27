@@ -44,9 +44,9 @@ export default function Home() {
 
       {/* SUMMARY */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-        <SummaryCard title="Saldo" amount={balance} />
         <SummaryCard title="Income" amount={income} />
         <SummaryCard title="Expense" amount={expense} />
+        <SummaryCard title="Balance" amount={balence} />
       </div>
 
       {/*  MAIN GRID */}
